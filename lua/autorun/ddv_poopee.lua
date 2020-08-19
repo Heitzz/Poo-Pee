@@ -7,10 +7,6 @@
 resource.AddWorkshop("2202614385") // Auto Workshop DL
 
 if ( CLIENT ) then
-    // Auto poop ARK-Style
-    timer.Create("PoopTimer", 65, 0, function()
-        RunConsoleCommand("poop")
-    end)
 
     local function CollideCallback(particle, hitpos, normal)
 
