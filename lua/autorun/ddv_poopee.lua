@@ -4,6 +4,8 @@
 	Created by DidVaitel (http://steamcommunity.com/profiles/76561198108670811)
 ]]
 
+resource.AddWorkshop("2202614385") // Auto Workshop DL
+
 if ( CLIENT ) then
     // Auto poop ARK-Style
     timer.Create("PoopTimer", 65, 0, function()
