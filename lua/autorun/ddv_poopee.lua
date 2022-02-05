@@ -4,8 +4,6 @@
 	Created by DidVaitel (http://steamcommunity.com/profiles/76561198108670811)
 ]]
 
-resource.AddWorkshop("2202614385") // Auto Workshop DL
-
 if ( CLIENT ) then
 
     local function CollideCallback(particle, hitpos, normal)
@@ -72,6 +70,7 @@ if ( CLIENT ) then
 
 elseif ( SERVER ) then
 
+    resource.AddWorkshop("2202614385") // Auto Workshop DL
     util.AddNetworkString("DDV.MakePee")
 
     function Poop( ply, command, arguments )
